@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- font awasome -->
+    <script src="https://kit.fontawesome.com/ed48a52405.js" crossorigin="anonymous"></script>
+
+    <!-- css link -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Bootstrap cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+
+<body>
+    <section class="container">
+        <header>
+            <h1 class="text-center text-primary mt-5 fw-bold">Online Diary <i class="fas fa-user-friends"></i>
+            </h1>
+
+        </header>
+
+        <main>
+
+            <div class="row">
+                <div class="col-lg-7 ">
+                    <img src="image/pexels-photo-4386335.jpeg" alt="" srcset="">
+                </div>
+
+                <div style="background-color: rgba(89, 164, 202, 0.37);" class="col-lg-5 mt-3 text-center border">
+                    <article>
+                        <div class="my-4">
+                            <h2>Income</h2>
+                        </div>
+                        <div class="d-flex my-4 justify-content-center ">
+                            <h5 class=" mx-2">Income:</h5>
+                            <input id="total-income" style="background-color: #eeeded;" type="number" name="">
+                        </div>
+                        <h3 class="mb-3">Expenses</h3>
+                        <div class="d-flex my-2  justify-content-center">
+                            <h5 class="mx-2">Food: </h5>
+                            <input id="food-cost" style="background-color: #eeeded;" type="number" name="">
+                        </div>
+                        <div class="d-flex my-2  justify-content-center">
+                            <h5 class="mx-2">Rent : </h5>
+                            <input id="rent-cost" style="background-color: #eeeded;" type="number" name="" id="">
+                        </div>
+                        <div class="d-flex my-2 justify-content-center">
+                            <h5 class="mx-2">Cloth:</h5>
+                            <input id="cloth-cost" style="background-color: #eeeded;" type="number" name="">
+                        </div>
+                        <button id="calculate" style="font-size:20px "
+                            class="btn btn-primary fw-bold px-4 my-2 py-1">Calculate</button>
+                        <div class="my-4">
+                            <h4>Total Expenses: <span id="total-expense">00</span> </h4>
+                            <h4>Balance: <span id="extra-blance">00</span> </h4>
+
+                        </div>
+                        <div>
+                            <div class="d-flex my-4 mx-auto justify-content-center ">
+                                <h4 class="mx-2">Save:</h4>
+                                <input id="save-value"
+                                    style="background-color: #e2e1e1e0; width: 15%; margin-right: 10px;">
+                                %
+                                <button id="save" class="btn btn-primary fw-bold mx-3 px-5">Save</button>
+
+                            </div>
+
+                            <div class="my-5">
+                                <h4 class=" fw-bold">Saving amount: <span id="save-amount">120</span> </h4>
+                                <h4 class=" fw-bold">Remaing Blance: <span id="remain-blance">2500</span> </h4>
+                            </div>
+
+                        </div>
+
+
+
+
+                </div>
+
+
+
+
+
+                </article>
+
+
+
+
+            </div>
+            </div>
+
+
+        </main>
+
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <!-- JS link -->
+    <script src="script.js"></script>
+</body>
+
+</html>
